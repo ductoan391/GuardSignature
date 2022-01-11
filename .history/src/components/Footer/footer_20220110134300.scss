@@ -1,0 +1,118 @@
+.row-title {
+    display: flex;
+    padding-top: 35px;
+    color: red;
+}
+
+.title-span {
+    font-weight: var(--fontNoto-bold);
+    font-size: var(--mobile-text-size);
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.title-span:not(:last-child) {
+    margin-right: 30px;
+}
+
+.row-contact {
+    color: var(--gray-color2);
+    font-size: var(--mobile-text-size);
+    line-height: 24px;
+    font-weight: var(--fontNoto-light);
+}
+
+.span-contact1,
+.span-contact2,
+.span-contact3 {
+    display: block;
+}
+
+.span-contact1 {
+    margin-top: 20px;
+}
+
+.span-contact3 {
+    margin-bottom: 25px;
+}
+
+.p-contact {
+    display: block;
+    margin-bottom: 76px;
+}
+
+.box-icon {
+    display: flex;
+    padding-top: 40px;
+}
+
+.box-icon i {
+    font-size: var(--big-font-size);
+}
+
+.bx:not(:last-child) {
+    margin-right: 5px;
+}
+
+.bx:hover,
+.title-span:hover {
+    cursor: pointer;
+    color: var(--main-color);
+}
+
+@media (max-width: 736px) {
+    .footer__row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row-title {
+        display: flex;
+        padding-top: 20px;
+        justify-content: center;
+    }
+
+    .title-span {
+        font-weight: var(--fontNoto-bold);
+        font-size: var(--mobile-text-size);
+        cursor: pointer;
+    }
+
+    .title-span:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    .row-contact {
+        color: var(--gray-color2);
+        font-size: var(--mobile-text-size);
+        font-weight: var(--fontNoto-light);
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .span-contact {
+        display: block;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    .span-contact2 {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .box-icon {
+        display: flex;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .box-icon i {
+        font-size: var(--big-font-size);
+    }
+
+    .bx:not(:last-child) {
+        margin-right: 15px;
+    }
+}
